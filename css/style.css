@@ -1,0 +1,48 @@
+
+body {
+  max-width: 42em;
+  margin: 0 auto;
+  padding: 1.5em;
+  border: .5em groove cyan;
+  border-width: 0 .5em;
+  background: white;
+}
+
+* {
+     -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+       -o-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  min-height: 12em;
+  border: .25em groove red;
+  padding: .25em;
+  font-size: 2em;
+}
+
+[role="navigation"] li {
+  text-decoration: line-through;
+}
+
+[role="contentinfo"] {
+  margin-top: 1.25em;
+  padding-top: 1.25em;
+  border-top: .5em groove red;
+}
+
+
+html {
+     -moz-transition: background-size 200ms;
+  -webkit-transition: background-size 200ms;
+       -o-transition: background-size 200ms;
+          transition: background-size 200ms;
+  background: url(http://animaldiscoveryonline.com/animal-pictures/ape-6.jpg) repeat fixed center;
+  background-size: 20%;
+}
+
+html:hover {
+  background-size: 300%;
+}
